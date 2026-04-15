@@ -1,0 +1,5 @@
+parcela1 = float(input("Digite a primeira parcela: "))
+parcela2 = float(input("Digite a segunda parcela: "))
+
+soma = parcela1 + parcela2
+print("O resultado da soma é: ", soma)
