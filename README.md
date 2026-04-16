@@ -2,7 +2,7 @@
 
 Olá! Este é o meu primeiro repositório criado e dedicado aos meus exercícios de lógica e projetos desenvolvidos durante o curso de **Análise e Desenvolvimento de Sistemas**.
 
-## o que tem aqui?
+## O que tem aqui?
 
 - **Monitor de Sistema:** Um dashbord em tempo real para o MacBook e iMac.
 - **Exercícios de Lógica:** Scripts de treinamento do básico ao avançado.
