@@ -17,7 +17,7 @@ Olá! Este é o meu primeiro repositório criado e dedicado aos meus exercícios
 - Configuração de ambiente macOS (Terminal, Homebrew, SSH)
 - Versionamento com **Git e GitHub**
 
-## 🐍 Scripts incluídos:
+## 🖥️ Scripts incluídos:
 
 - `test.py`: Cálculo de média com estrutura condicional (if/else).
 - `calculadora.py`: Calculadora completa com tratamento de erros.
