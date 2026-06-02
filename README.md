@@ -4,7 +4,7 @@ Olá! Este é o meu primeiro repositório criado e dedicado aos meus exercícios
 
 ## O que tem aqui?
 
-- **Monitor de Sistema:** Um dashbord em tempo real para o MacBook e iMac.
+- **Monitor de Sistema:** Um dashbord em tempo real para o MacBook.
 - **Exercícios de Lógica:** Scripts de treinamento do básico ao avançado.
 - **Ambiente Profissional:** uso de `venv`, `pip` e `gitignore`.
 
