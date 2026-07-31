@@ -1,25 +1,29 @@
-# 🐍 Meus Estudos de Python - ADS
+# Estudos de Python — ADS
 
-Olá! Este é o meu primeiro repositório criado e dedicado aos meus exercícios de lógica e projetos desenvolvidos durante o curso de **Análise e Desenvolvimento de Sistemas**.
+Projetos e exercícios de lógica desenvolvidos durante o curso de Análise e Desenvolvimento de Sistemas.
 
-## O que tem aqui?
+## Conteúdos
 
-- **Monitor de Sistema:** Um dashbord em tempo real para o MacBook.
-- **Exercícios de Lógica:** Scripts de treinamento do básico ao avançado.
-- **Ambiente Profissional:** uso de `venv`, `pip` e `gitignore`.
+- **Calculadora:** operações matemáticas com validação de erros.
+- **Disciplinas:** exemplo de listas, condições e funções puras.
+- **Monitor de sistema:** resumo de CPU e memória usando `psutil` (opcional).
 
-## 🛠️ Tecnologias e Bibliotecas
+## Como executar
 
-- [Python 3.14+](https://wwww.python.org/)
-- **Rich:** Para boa estética da interface do terminal.
-- **Psutil:** Para monitormanento de hardware.
-- **Plyer:** Para notificações nativas do macOS.
-- Configuração de ambiente macOS (Terminal, Homebrew, SSH)
-- Versionamento com **Git e GitHub**
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e '.[dev,monitor]'
+pytest
+```
 
-## 🖥️ Scripts incluídos:
+## Estrutura
 
-- `test.py`: Cálculo de média com estrutura condicional (if/else).
-- `calculadora.py`: Calculadora completa com tratamento de erros.
-- `materias.py`: Gerenciamento de disciplinas usando Listas e Laços de Repetição (for).
-- `super_monitor.py`: stauts do monitor do MacBook e iMAc.
+```text
+src/ads_studies/  # código reutilizável
+tests/            # testes automatizados
+```
+
+## Próximos passos
+
+Adicionar uma interface de terminal, testes para o monitor e integração contínua com GitHub Actions.
