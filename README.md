@@ -27,3 +27,12 @@ tests/            # testes automatizados
 ## Próximos passos
 
 Adicionar uma interface de terminal, testes para o monitor e integração contínua com GitHub Actions.
+
+## 🎯 Metas de Aprendizado (ADS)
+
+- [x] Configuração de ambiente Python, `.venv` e gerenciamento com `pyproject.toml`
+- [x] Criação e execução de testes automatizados com `pytest`
+- [ ] Implementação de interface CLI amigável para os scripts
+- [ ] Integração contínua (CI) com GitHub Actions para rodar testes automaticamente
+- [ ] Cobertura de testes unitários para o módulo de monitoramento de sistema
+- [ ] Conexão do projeto com banco de dados relacional (SQLite/PostgreSQL)
