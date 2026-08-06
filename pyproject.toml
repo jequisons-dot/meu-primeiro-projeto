@@ -14,6 +14,9 @@ authors = [{ name = "Jequison Cruz" }]
 dev = ["pytest>=8.0"]
 monitor = ["psutil>=5.9"]
 
+[project.scripts]
+ads-studies = "ads_studies.cli:main"
+
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
