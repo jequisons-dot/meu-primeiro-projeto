@@ -38,5 +38,5 @@ tests/            # testes automatizados
 - [x] Criação e execução de testes automatizados com `pytest`
 - [x] Implementação de interface CLI amigável para os scripts
 - [x] Integração contínua (CI) com GitHub Actions para rodar testes automaticamente
-- [ ] Cobertura de testes unitários para o módulo de monitoramento de sistema
+- [x] Cobertura de testes unitários para o módulo de monitoramento de sistema
 - [ ] Conexão do projeto com banco de dados relacional (SQLite/PostgreSQL)
