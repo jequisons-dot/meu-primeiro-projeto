@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ads-python-studies"
+version = "0.1.0"
+description = "Exercícios de lógica e pequenas ferramentas em Python para ADS."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Jequison Cruz" }]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+monitor = ["psutil>=5.9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

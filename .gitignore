@@ -1,11 +1,14 @@
-# Ambientes Virtuais
+# Ambientes virtuais
 .venv/
 venv/
 env/
 
-# Cache do Python (arquivos temporários)
-**/__pycache__/
+# Cache e artefatos Python
+__pycache__/
 *.py[cod]
+build/
+dist/
+*.egg-info/
 
- Configurações do VS Code (opcional)
- .vscode/
+# Configurações locais
+.vscode/
